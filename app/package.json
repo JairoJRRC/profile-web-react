@@ -1,5 +1,6 @@
 {
-  "name": "app",
+  "name": "profile",
+  "homepage": "http://jairorafaelrojas.com/app/build/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
