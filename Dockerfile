@@ -1,10 +1,10 @@
 FROM node:12.13.1
 
-WORKDIR /usr/src/app
+WORKDIR /home/node/app
 
-COPY app/. /usr/src/app/.
+COPY app/. /home/node/app/.
 
-RUN npm install --silent
-# RUN npm install react-scripts@3.0.1 -g --silent
-
-CMD ["npm", "start"]
+EXPOSE 80
+COPY ./entrypoint.sh /tmp
+RUN chmod +x /tmp/entrypoint.sh
+ENTRYPOINT /tmp/entrypoint.sh
