@@ -8,37 +8,37 @@ class Footer extends React.Component {
           <div className="col-md-12">
             <ul className="socials round pb-20">
               <li>
-                <a href="#">
+                <a href="https://www.facebook.com/groups/158411205239/">
                   <i className="icon-facebook-circled"></i>
                   <span>Facebook</span>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://twitter.com/RojasCribillero">
                   <i className="icon-twitter-circled"></i>
                   <span>Twitter</span>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/jairo-rojas-3796b8148/">
                   <i className="icon-linkedin-circled"></i>
                   <span>Linkedin</span>
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#">
                   <i className="icon-dribbble-circled"></i>
                   <span>Dribbble</span>
                 </a>
-              </li>
+              </li> */}
             </ul>
 
             <hr />
 
             <p className="pt-20">
-              &copy; 2016 all rights reserved. A product of{" "}
-              <a href="http://www.mutationmedia.net/" target="_blank">
-                Mutationthemes
+              &copy; 2019 all rights reserved. A product of{" "}
+              <a href="http://jairorafaelrojas.com/" target="_blank">
+                Jairo Rojas
               </a>
               .
             </p>

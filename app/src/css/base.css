@@ -111,7 +111,8 @@ iframe{
 	
 		
 	.overlay:before{
-	    background: rgba(35, 35, 35, .6);
+		/* background: rgba(35, 35, 35, .6); */
+	    background: rgba(35, 35, 35, .8);
 	    content: "";
 	    height: 100%;
 	    position: absolute;
@@ -146,14 +147,15 @@ iframe{
 	.block-background-image {
 	    backface-visibility: hidden;
 		background-attachment: fixed;
-	    background-position: center center;
+	    /* background-position: center center; */
+	    background-position: center 65%;
 	    background-repeat: no-repeat;
 	    background-size: cover;
 	    box-sizing: border-box;
 	    display: block;
 	    overflow: visible;
 	    position: relative;
-	    width: 100%;
+		width: 100%;
 	}
 
 

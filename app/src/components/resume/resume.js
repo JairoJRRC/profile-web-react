@@ -1,160 +1,389 @@
 import React from "react";
+import logo2 from "./img/5.jpg";
 
 class Resume extends React.Component {
   render() {
     return (
       <div>
-        <div className="container ">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="block-title mb-60">
-                <h2 className="title">My Resume</h2>
+        <div class="container ">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="block-title mb-60">
+                <h2 class="title">My Resume</h2>
               </div>
             </div>
           </div>
 
-          <div className="row masonry">
-            <div className="block-content">
-              <div className="col-md-4 col-sm-6 resume-boxe masonry">
-                <div className="inner-resume-boxe">
-                  <div className="block-icon">
-                    <i className="ic-toolbox"></i>
+          <div class="row masonry">
+            <div class="block-content">
+              <div class="col-md-4 col-sm-6 resume-boxe masonry">
+                <div class="inner-resume-boxe">
+                  <div class="block-icon">
+                    <i class="ic-toolbox"></i>
                   </div>
-                  <div className="block-title">
-                    <h3 className="title medium">Expertise</h3>
+                  <div class="block-title">
+                    <h3 class="title medium">Expertise</h3>
                   </div>
 
-                  <div className="timeline mt-40">
-                    <div className="exp">
-                      <div className="hgroup mb-5">
-                        <h4>WebDesigner &ndash; Mutation Media </h4>
+                  <div class="timeline mt-40">
+                    <div class="exp">
+                      <div class="hgroup mb-5">
+                        <h4>
+                          Backend Developer &ndash; La Mark Vision Peru S.A.C{" "}
+                        </h4>
                         <h6>
-                          Feb 2015 &ndash;{" "}
-                          <span className="current">Current</span>
+                          Aug 2019 &ndash; <span class="current">Current</span>
                         </h6>
                       </div>
                       <p>
-                        Ut enim ad minim veniam, quis nostrud exerc, irure dolor
-                        in reprehend.
+                        Infraestructura como código. Despliegues e integración
+                        contínua. Desarrollo en Java, Python, Javascript.
+                        Continuous integration, continuous delivery, continuous
+                        deployment. Migrar microservicios a contenedores usando
+                        Docker. Optimización de tiempos, automatizando
+                        despliegues para ambientes de desarrollo. Garantizar
+                        despliegues a Producción y simplicidad en Rollbacks.
+                        Autoescalamiento de Infraestructura y Balanceo de carga
+                        para Aplicaciones Web usando Servicios AWS Despliegue de
+                        Aplicaciones Framework Spring. Evaluación de proyectos
+                        de mejora con AWS y nuevas tecnologías.
                       </p>
                     </div>
 
-                    <div className="exp">
-                      <div className="hgroup mb-5">
-                        <h4>Web Developer &ndash; Mutation Media </h4>
-                        <h6>Sept 2015 &ndash; Nov 2015</h6>
+                    <div class="exp">
+                      <div class="hgroup mb-5">
+                        <h4>Backend Developer &ndash; Grupo el Comercio </h4>
+                        <h6>Jan 2019 &ndash; Aug 2019</h6>
                       </div>
                       <p>
-                        Ut enim ad minim veniam, quis nostrud exerc, irure dolor
-                        in reprehend.
+                        Infraestructura como código. Despliegues e integración
+                        contínua. Software Developer. DevOps Desarrollo en Php,
+                        JavaScript, Python. Metodologías y técnicas ágiles,
+                        como: Scrum, TDD, BDD, DDD y Pair Programming. Rediseño,
+                        implementación y migración de las principales marcas a
+                        la arquitectura orientada a ServerLess. Rediseño de
+                        flujo de despliegue e integración con servicios AWS.
+                        Continuous integration, continuous delivery, continuous
+                        deployment. Migrar microservicios a contenedores usando
+                        Docker. Optimización de tiempos, automatizando
+                        despliegues para ambientes de desarrollo. Garantizar
+                        despliegues a Producción y simplicidad en Rollbacks.
+                        Autoescalamiento de Infraestructura y Balanceo de carga
+                        para Aplicaciones Web usando Servicios AWS Despliegue de
+                        Aplicaciones Framework NodeJs, Laravel, Symfony.
+                        Evaluación de proyectos de mejora con AWS y nuevas
+                        tecnologías.
+                      </p>
+                    </div>
+
+                    <div class="exp">
+                      <div class="hgroup mb-5">
+                        <h4>
+                          Backend Developer &ndash; Metrica Andina S.A.C.{" "}
+                        </h4>
+                        <h6>Sept 2017 &ndash; Jan 2019</h6>
+                      </div>
+                      <p>
+                        Migración de aplicaciones web con arquitectura
+                        monolítica hacia una arquitectura basada en componentes.
+                        Desarrollo de pruebas unitarias e integración TDD.
+                        Domain Driven Design (DDD). Diseño orientado a Pruebas
+                        (TDD). Análisis y planificación de requerimientos.
+                        Implementación de API. Documentación de API a través de
+                        RAML Conexión entre aplicaciones. Conexión con
+                        infraestructura en la nube AWS. Diseño de API REST para
+                        el portal Aptitus. Integración con sistemas de pagos.
+                        In-House Grupo el Comercio
+                      </p>
+                    </div>
+
+                    <div class="exp">
+                      <div class="hgroup mb-5">
+                        <h4>
+                          Web and Mobile Application Developer &ndash;
+                          Tecnifacil S.A.C{" "}
+                        </h4>
+                        <h6>Aug 2016 &ndash; Aug 2017</h6>
+                      </div>
+                      <p>
+                        Participé del equipo de trabajo en el proyecto de
+                        desarrollo Web y de aplicaciones móviles para el área de
+                        ventas de una empresa de servicios utilizando
+                        PHP,JavaScript, Java, MySQL, framework como Laravel,
+                        Angularjs, Codeigniter .Además, desarrollé una
+                        aplicación nativa en donde se administra visitas y
+                        ordenes de sus clientes desde el app. Interacción entre
+                        los clientes mediante el chat de la aplicación. Obtener
+                        reportes visuales sobre sus movimientos económicos por
+                        los servicios prestados
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="col-md-4 col-sm-6 resume-boxe masonry">
-                <div className="inner-resume-boxe">
-                  <div className="block-icon">
-                    <i className="ic-pencil"></i>
+              <div class="col-md-4 col-sm-6 resume-boxe masonry">
+                <div class="inner-resume-boxe">
+                  <div class="block-icon">
+                    <i class="ic-pencil"></i>
                   </div>
-                  <div className="block-title">
-                    <h3 className="title medium">Education</h3>
+                  <div class="block-title">
+                    <h3 class="title medium">Education</h3>
                   </div>
 
-                  <div className="timeline mt-40">
-                    <div className="edu">
-                      <div className="hgroup mb-5">
+                  <div class="timeline mt-40">
+                    <div class="edu">
+                      <div class="hgroup mb-5">
                         <h4>Ingles &ndash; Ice School </h4>
                         <h6>
-                          July 2019 &ndash;{" "}
-                          <span className="current">Current</span>
+                          July 2019 &ndash; <span class="current">Current</span>
                         </h6>
                       </div>
                       <p>
-                        Ut enim ad minim veniam, quis nostrud exerc, irure dolor
-                        in reprehend.
+                        Programas de inglés 100% presencial con horarios
+                        flexibles.
                       </p>
                     </div>
 
-                    <div className="edu">
-                      <div className="hgroup mb-5">
+                    <div class="edu">
+                      <div class="hgroup mb-5">
                         <h4>Ingenieria de Sistemas &ndash; UPC </h4>
                         <h6>
                           January 2019 &ndash;{" "}
-                          <span className="current">Current</span>
+                          <span class="current">Current</span>
                         </h6>
                       </div>
                       <p>
-                        Ut enim ad minim veniam, quis nostrud exerc, irure dolor
-                        in reprehend.
+                        Al terminar la carrera serás capaz de liderar equipos
+                        técnicos y diseñar procesos de negocio. Podrás
+                        implementar y mantener softwares de gran escala, crear
+                        algoritmos y sistemas inteligentes que solucionen
+                        problemas de comunicación y mejoren el rendimiento de la
+                        organización. Forma líderes íntegros e innovadores con
+                        visión global para que transformen el Perú.
                       </p>
                     </div>
 
-                    <div className="edu">
-                      <div className="hgroup mb-5">
+                    <div class="edu">
+                      <div class="hgroup mb-5">
                         <h4>Computación e Informática &ndash; CIBERTEC </h4>
                         <h6>July 2015 &ndash; July 2018</h6>
                       </div>
                       <p>
-                        Ut enim ad minim veniam, quis nostrud exerc, irure dolor
-                        in reprehend.
+                        Egresado en Computación e Informática podrá desempeñarse
+                        en empresas públicas y privadas, especializadas en
+                        desarrollo de aplicaciones, análisis y diseño de
+                        sistemas, base de datos, entre otros. Ejerce tu carrera
+                        como: Programador Desarrollador multiplataforma Analista
+                        Funcional Analista – Programador Programador de base de
+                        datos Modelador de base de datos
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="col-md-4 col-sm-6 resume-boxe masonry">
-                <div className="inner-resume-boxe">
-                  <div className="block-icon">
-                    <i className="ic-tools-2"></i>
+              <div class="col-md-4 col-sm-6 resume-boxe masonry">
+                <div class="inner-resume-boxe">
+                  <div class="block-icon">
+                    <i class="ic-tools-2"></i>
                   </div>
-                  <div className="block-title">
-                    <h3 className="title medium">Skills</h3>
+                  <div class="block-title">
+                    <h3 class="title medium">Skills</h3>
                   </div>
 
-                  <div className="skills mt-40 ">
-                    <ul className="skill-list clearfix">
+                  <div class="skills mt-40 ">
+                    <ul class="skill-list clearfix">
+                      <li>
+                        <h4>PHP</h4>
+                        <div class="rating">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span class="transparent"></span>
+                        </div>
+                      </li>
+                      <li>
+                        <h4>MySql</h4>
+                        <div class="rating">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span class="transparent"></span>
+                        </div>
+                      </li>
+                      <li>
+                        <h4>Symfony</h4>
+                        <div class="rating">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span class="transparent"></span>
+                        </div>
+                      </li>
+                      <li>
+                        <h4>Zend</h4>
+                        <div class="rating">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span class="transparent"></span>
+                        </div>
+                      </li>
+                      <li>
+                        <h4>Java</h4>
+                        <div class="rating">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span class="transparent"></span>
+                        </div>
+                      </li>
+                      <li>
+                        <h4>Node JS</h4>
+                        <div class="rating">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span class="transparent"></span>
+                        </div>
+                      </li>
+                      <li>
+                        <h4>JavaScript</h4>
+                        <div class="rating">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span class="transparent"></span>
+                        </div>
+                      </li>
+                      <li>
+                        <h4>Jenkins</h4>
+                        <div class="rating">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span class="transparent"></span>
+                        </div>
+                      </li>
+                      <li>
+                        <h4>Cloud Computing</h4>
+                        <div class="rating">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span class="transparent"></span>
+                        </div>
+                      </li>
+                      <li>
+                        <h4>Linux</h4>
+                        <div class="rating">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span class="transparent"></span>
+                        </div>
+                      </li>
+                      <li>
+                        <h4>SQL Server</h4>
+                        <div class="rating">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span class="transparent"></span>
+                        </div>
+                      </li>
+                      <li>
+                        <h4>HTML5</h4>
+                        <div class="rating">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span class="transparent"></span>
+                        </div>
+                      </li>
+                      <li>
+                        <h4>CSS</h4>
+                        <div class="rating">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span class="transparent"></span>
+                        </div>
+                      </li>
+                      <li>
+                        <h4>Android</h4>
+                        <div class="rating">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span class="transparent"></span>
+                        </div>
+                      </li>
+                      <li>
+                        <h4>Flutter</h4>
+                        <div class="rating">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span class="transparent"></span>
+                        </div>
+                      </li>
+
                       <li>
                         <h4>HTML/CSS</h4>
-                        <div className="rating">
+                        <div class="rating">
                           <span></span>
                           <span></span>
                           <span></span>
                           <span></span>
-                          <span className="transparent"></span>
+                          <span class="transparent"></span>
                         </div>
                       </li>
                       <li>
                         <h4>Jquery</h4>
-                        <div className="rating">
+                        <div class="rating">
                           <span></span>
                           <span></span>
                           <span></span>
                           <span></span>
-                          <span className="transparent"></span>
+                          <span class="transparent"></span>
                         </div>
                       </li>
 
                       <li>
                         <h4>Photoshop</h4>
-                        <div className="rating">
+                        <div class="rating">
                           <span></span>
                           <span></span>
                           <span></span>
                           <span></span>
-                          <span className="transparent"></span>
+                          <span class="transparent"></span>
                         </div>
                       </li>
                       <li>
                         <h4>Illustrator</h4>
-                        <div className="rating">
+                        <div class="rating">
                           <span></span>
                           <span></span>
                           <span></span>
-                          <span className="transparent"></span>
-                          <span className="transparent"></span>
+                          <span class="transparent"></span>
+                          <span class="transparent"></span>
                         </div>
                       </li>
                     </ul>
@@ -162,45 +391,45 @@ class Resume extends React.Component {
                 </div>
               </div>
 
-              <div className="col-md-4 col-sm-6 resume-boxe masonry">
-                <div className="inner-resume-boxe">
-                  <div className="block-icon">
-                    <i className="ic-mic"></i>
+              <div class="col-md-4 col-sm-6 resume-boxe masonry">
+                <div class="inner-resume-boxe">
+                  <div class="block-icon">
+                    <i class="ic-mic"></i>
                   </div>
-                  <div className="block-title">
-                    <h3 className="title medium">Languages</h3>
+                  <div class="block-title">
+                    <h3 class="title medium">Languages</h3>
                   </div>
 
-                  <div className="skills mt-40 ">
-                    <ul className="skill-list clearfix">
-                      <li>
-                        <h4>English</h4>
-                        <div className="rating">
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                          <span className="transparent"></span>
-                        </div>
-                      </li>
-                      <li>
-                        <h4>French</h4>
-                        <div className="rating">
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                          <span className="transparent"></span>
-                          <span className="transparent"></span>
-                        </div>
-                      </li>
+                  <div class="skills mt-40 ">
+                    <ul class="skill-list clearfix">
                       <li>
                         <h4>Spanish</h4>
-                        <div className="rating">
+                        <div class="rating">
                           <span></span>
                           <span></span>
-                          <span className="transparent"></span>
-                          <span className="transparent"></span>
-                          <span className="transparent"></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </div>
+                      </li>
+                      <li>
+                        <h4>Portuguese</h4>
+                        <div class="rating">
+                          <span></span>
+                          <span class="transparent"></span>
+                          <span class="transparent"></span>
+                          <span class="transparent"></span>
+                          <span class="transparent"></span>
+                        </div>
+                      </li>
+                      <li>
+                        <h4>English</h4>
+                        <div class="rating">
+                          <span></span>
+                          <span></span>
+                          <span class="transparent"></span>
+                          <span class="transparent"></span>
+                          <span class="transparent"></span>
                         </div>
                       </li>
                     </ul>
@@ -208,41 +437,41 @@ class Resume extends React.Component {
                 </div>
               </div>
 
-              <div className="col-md-4 col-sm-6 resume-boxe masonry">
-                <div className="inner-resume-boxe">
-                  <div className="block-icon">
-                    <i className="ic-telescope"></i>
+              <div class="col-md-4 col-sm-6 resume-boxe masonry">
+                <div class="inner-resume-boxe">
+                  <div class="block-icon">
+                    <i class="ic-telescope"></i>
                   </div>
-                  <div className="block-title">
-                    <h3 className="title medium">Interests</h3>
+                  <div class="block-title">
+                    <h3 class="title medium">Interests</h3>
                   </div>
 
-                  <div className="hb-list mt-40 ">
+                  <div class="hb-list mt-40 ">
                     <ul>
                       <li>
                         <span>
-                          <i className="ic-megaphone"></i>
+                          <i class="ic-megaphone"></i>
                         </span>
                         <h6>Music</h6>
                       </li>
 
                       <li>
                         <span>
-                          <i className="ic-strategy"></i>
+                          <i class="ic-strategy"></i>
                         </span>
                         <h6>Gaming</h6>
                       </li>
 
                       <li>
                         <span>
-                          <i className="ic-hotairballoon"></i>
+                          <i class="ic-hotairballoon"></i>
                         </span>
                         <h6>Travel</h6>
                       </li>
 
                       <li>
                         <span>
-                          <i className="ic-basket"></i>
+                          <i class="ic-basket"></i>
                         </span>
                         <h6>Cooking</h6>
                       </li>
@@ -251,16 +480,16 @@ class Resume extends React.Component {
                 </div>
               </div>
 
-              <div className="col-md-4 col-sm-6 resume-boxe masonry">
-                <div className="inner-resume-boxe">
-                  <div className="block-icon">
-                    <i className="ic-wallet"></i>
+              <div class="col-md-4 col-sm-6 resume-boxe masonry">
+                <div class="inner-resume-boxe">
+                  <div class="block-icon">
+                    <i class="ic-wallet"></i>
                   </div>
-                  <div className="block-title">
-                    <h3 className="title medium">Assets</h3>
+                  <div class="block-title">
+                    <h3 class="title medium">Assets</h3>
                   </div>
 
-                  <div className="ast-list mt-40 ">
+                  <div class="ast-list mt-40 ">
                     <ul>
                       <li>
                         <span>Responsible</span>
@@ -285,49 +514,49 @@ class Resume extends React.Component {
             </div>
           </div>
 
-          <div className="row">
-            <div className="block-content mt-50 pb-80 clearfix">
-              <ul className="fact-list">
-                <li className="col-sm-3">
-                  <div className="inner-fact clearfix">
-                    <span className="ico-fact">
-                      <i className="ic-hourglass"></i>
+          <div class="row">
+            <div class="block-content mt-50 pb-80 clearfix">
+              <ul class="fact-list">
+                <li class="col-sm-3">
+                  <div class="inner-fact clearfix">
+                    <span class="ico-fact">
+                      <i class="ic-hourglass"></i>
                     </span>
-                    <div className="desc-fact">
-                      <span className="count">400</span>Project Finished
+                    <div class="desc-fact">
+                      <span class="count">200</span>Project Finished
                     </div>
                   </div>
                 </li>
 
-                <li className="col-sm-3">
-                  <div className="inner-fact clearfix">
-                    <span className="ico-fact">
-                      <i className="ic-trophy"></i>
+                <li class="col-sm-3">
+                  <div class="inner-fact clearfix">
+                    <span class="ico-fact">
+                      <i class="ic-trophy"></i>
                     </span>
-                    <div className="desc-fact">
-                      <span className="count">320</span>Instagram Selfie
+                    <div class="desc-fact">
+                      <span class="count">320</span>Instagram Selfie
                     </div>
                   </div>
                 </li>
 
-                <li className="col-sm-3">
-                  <div className="inner-fact clearfix">
-                    <span className="ico-fact">
-                      <i className="ic-lightbulb"></i>
+                <li class="col-sm-3">
+                  <div class="inner-fact clearfix">
+                    <span class="ico-fact">
+                      <i class="ic-lightbulb"></i>
                     </span>
-                    <div className="desc-fact">
-                      <span className="count">5623</span>Coffee Drinked
+                    <div class="desc-fact">
+                      <span class="count">5623</span>Coffee Drinked
                     </div>
                   </div>
                 </li>
 
-                <li className="col-sm-3">
-                  <div className="inner-fact clearfix">
-                    <span className="ico-fact">
-                      <i className="ic-heart"></i>
+                <li class="col-sm-3">
+                  <div class="inner-fact clearfix">
+                    <span class="ico-fact">
+                      <i class="ic-heart"></i>
                     </span>
-                    <div className="desc-fact">
-                      <span className="count">1400</span>Facebook Likes
+                    <div class="desc-fact">
+                      <span class="count">1400</span>Facebook Likes
                     </div>
                   </div>
                 </li>
@@ -336,33 +565,33 @@ class Resume extends React.Component {
           </div>
         </div>
 
-        <div className="block-content bg-grey  pt-100 pb-80">
-          <div className="container ">
-            <div className="row">
-              <div className="col-md-12">
-                <div className="block-title mb-60">
-                  <h2 className="title">Services</h2>
+        <div class="block-content bg-grey  pt-100 pb-80">
+          <div class="container ">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="block-title mb-60">
+                  <h2 class="title">Services</h2>
                 </div>
               </div>
             </div>
 
-            <div className="row">
-              <div className="block-service clearfix">
-                <div className="col-sm-4 img">
-                  <img src="img/img-service.jpg" alt="" />
+            <div class="row">
+              <div class="block-service clearfix">
+                <div class="col-sm-4 img">
+                  <img src={require("./img/img-service.jpg")} alt="" />
                 </div>
 
-                <div className="col-sm-4">
-                  <ul className="block-list-services mt-60">
-                    <li className="mb-60 clearfix">
-                      <div className="serv-ico">
-                        <span className="ico">
-                          <i className="ic-shield"></i>
+                <div class="col-sm-4">
+                  <ul class="block-list-services mt-60">
+                    <li class="mb-60 clearfix">
+                      <div class="serv-ico">
+                        <span class="ico">
+                          <i class="ic-shield"></i>
                         </span>
                       </div>
 
-                      <div className="serv-det">
-                        <h5 className="mb-10">Great Support</h5>
+                      <div class="serv-det">
+                        <h5 class="mb-10">Programmer</h5>
                         <p>
                           Sed do eiusmod tempor incididunt ut labore et dolore
                           magna aliqua tu enim ad minim veniam.
@@ -370,15 +599,15 @@ class Resume extends React.Component {
                       </div>
                     </li>
 
-                    <li className="mb-60 clearfix">
-                      <div className="serv-ico">
-                        <span className="ico">
-                          <i className="ic-hotairballoon"></i>
+                    <li class="mb-60 clearfix">
+                      <div class="serv-ico">
+                        <span class="ico">
+                          <i class="ic-hotairballoon"></i>
                         </span>
                       </div>
 
-                      <div className="serv-det">
-                        <h5 className="mb-10">Print &amp; Branding</h5>
+                      <div class="serv-det">
+                        <h5 class="mb-10">Web &amp; Application Developer</h5>
                         <p>
                           Sed do eiusmod tempor incididunt ut labore et dolore
                           magna aliqua tu enim ad minim veniam.
@@ -386,15 +615,15 @@ class Resume extends React.Component {
                       </div>
                     </li>
 
-                    <li className=" mb-60 clearfix">
-                      <div className="serv-ico">
-                        <span className="ico">
-                          <i className="ic-megaphone"></i>
+                    <li class=" mb-60 clearfix">
+                      <div class="serv-ico">
+                        <span class="ico">
+                          <i class="ic-megaphone"></i>
                         </span>
                       </div>
 
-                      <div className="serv-det">
-                        <h5 className="mb-10">Marketing</h5>
+                      <div class="serv-det">
+                        <h5 class="mb-10">Functional Analyst</h5>
                         <p>
                           Sed do eiusmod tempor incididunt ut labore et dolore
                           magna aliqua tu enim ad minim veniam.
@@ -404,17 +633,17 @@ class Resume extends React.Component {
                   </ul>
                 </div>
 
-                <div className="col-sm-4">
-                  <ul className="block-list-services mt-60">
-                    <li className="mb-60 clearfix">
-                      <div className="serv-ico">
-                        <span className="ico">
-                          <i className="ic-key"></i>
+                <div class="col-sm-4">
+                  <ul class="block-list-services mt-60">
+                    <li class="mb-60 clearfix">
+                      <div class="serv-ico">
+                        <span class="ico">
+                          <i class="ic-key"></i>
                         </span>
                       </div>
 
-                      <div className="serv-det">
-                        <h5 className="mb-10">development</h5>
+                      <div class="serv-det">
+                        <h5 class="mb-10">Software Development</h5>
                         <p>
                           Sed do eiusmod tempor incididunt ut labore et dolore
                           magna aliqua tu enim ad minim veniam.
@@ -422,15 +651,15 @@ class Resume extends React.Component {
                       </div>
                     </li>
 
-                    <li className="mb-60 clearfix">
-                      <div className="serv-ico">
-                        <span className="ico">
-                          <i className="ic-lightbulb"></i>
+                    <li class="mb-60 clearfix">
+                      <div class="serv-ico">
+                        <span class="ico">
+                          <i class="ic-lightbulb"></i>
                         </span>
                       </div>
 
-                      <div className="serv-det">
-                        <h5 className="mb-10">Branding</h5>
+                      <div class="serv-det">
+                        <h5 class="mb-10">Frontend Developer</h5>
                         <p>
                           Sed do eiusmod tempor incididunt ut labore et dolore
                           magna aliqua tu enim ad minim veniam.
@@ -438,15 +667,15 @@ class Resume extends React.Component {
                       </div>
                     </li>
 
-                    <li className=" clearfix">
-                      <div className="serv-ico">
-                        <span className="ico">
-                          <i className="ic-laptop"></i>
+                    <li class=" clearfix">
+                      <div class="serv-ico">
+                        <span class="ico">
+                          <i class="ic-laptop"></i>
                         </span>
                       </div>
 
-                      <div className="serv-det">
-                        <h5 className="mb-10">Web Design</h5>
+                      <div class="serv-det">
+                        <h5 class="mb-10">Backend Developer</h5>
                         <p>
                           Sed do eiusmod tempor incididunt ut labore et dolore
                           magna aliqua tu enim ad minim veniam.
@@ -460,35 +689,35 @@ class Resume extends React.Component {
           </div>
         </div>
 
-        <div className="block-content clearfix  t-center pt-60 pb-60">
-          <div className="container ">
-            <div className="row">
-              <div className="block-client clearfix ">
+        <div class="block-content clearfix  t-center pt-60 pb-60">
+          <div class="container ">
+            <div class="row">
+              <div class="block-client clearfix ">
                 <ul id="client-carousel">
-                  <li>
-                    <img src="img/logo/l1.png" alt="" />
+                  {/* <li>
+                    <img src={require('./img/logo/l1.png')} alt="" />
                   </li>
                   <li>
-                    <img src="img/logo/l2.png" alt="" />
+                    <img src={require('./img/logo/l2.png')} alt="" />
                   </li>
                   <li>
-                    <img src="img/logo/l3.png" alt="" />
+                    <img src={require('./img/logo/l3.png')} alt="" />
                   </li>
                   <li>
-                    <img src="img/logo/l4.png" alt="" />
+                    <img src={require('./img/logo/l4.png')} alt="" />
                   </li>
                   <li>
-                    <img src="img/logo/l5.png" alt="" />
+                    <img src={require('./img/logo/l5.png')} alt="" />
                   </li>
                   <li>
-                    <img src="img/logo/l6.png" alt="" />
+                    <img src={require('./img/logo/l6.png')} alt="" />
                   </li>
                   <li>
-                    <img src="img/logo/l7.png" alt="" />
+                    <img src={require('./img/logo/l7.png')} alt="" />
                   </li>
                   <li>
-                    <img src="img/logo/l8.png" alt="" />
-                  </li>
+                    <img src={require('./img/logo/l8.png')} alt="" />
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -496,55 +725,70 @@ class Resume extends React.Component {
         </div>
 
         <div
-          className="block-content t-center block-background-image medium overlay"
-          data-background="img/parallax/5.jpg"
+          class="block-content t-center block-background-image medium overlay"
+          style={{ backgroundImage: `url(${logo2})` }}
         >
-          <div className="block-testi ">
-            <div className="container">
-              <div className="row">
-                <div className="col-md-12">
-                  <div className="testi-thumbs">
-                    <ul className="thumbs">
+          <div class="block-testi ">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="testi-thumbs">
+                    <ul class="thumbs">
                       <li>
-                        <a className="t-active" href="#testi-1">
-                          <img src="img/testimonial/1.jpg" alt="" />
+                        <a class="t-active" href="#testi-1">
+                          <img
+                            src={require("./img/testimonial/1.jpg")}
+                            alt=""
+                          />
                           <span></span>
                         </a>
                       </li>
                       <li>
                         <a href="#testi-2">
-                          <img src="img/testimonial/2.jpg" alt="" />
+                          <img
+                            src={require("./img/testimonial/2.jpg")}
+                            alt=""
+                          />
                           <span></span>
                         </a>
                       </li>
                       <li>
                         <a href="#testi-3">
-                          <img src="img/testimonial/3.jpg" alt="" />
+                          <img
+                            src={require("./img/testimonial/3.jpg")}
+                            alt=""
+                          />
                           <span></span>
                         </a>
                       </li>
                       <li>
                         <a href="#testi-4">
-                          <img src="img/testimonial/4.jpg" alt="" />
+                          <img
+                            src={require("./img/testimonial/4.jpg")}
+                            alt=""
+                          />
                           <span></span>
                         </a>
                       </li>
                       <li>
                         <a href="#testi-5">
-                          <img src="img/testimonial/5.jpg" alt="" />
+                          <img
+                            src={require("./img/testimonial/5.jpg")}
+                            alt=""
+                          />
                           <span></span>
                         </a>
                       </li>
                     </ul>
 
-                    <h3 className="white mt-50 mb-20">
+                    <h3 class="white mt-50 mb-20">
                       Peaple appreciate working with difference vCard
                     </h3>
                   </div>
 
-                  <div className="testi-details mt-10">
-                    <div id="testi-1" className="td first">
-                      <blockquote className="mb-40">
+                  <div class="testi-details mt-10">
+                    <div id="testi-1" class="td first">
+                      <blockquote class="mb-40">
                         Being the richest man in the cemetery doesn't matter to
                         me. Going to bed at night saying we've done
                         <br /> something wonderful... that's what matters to me
@@ -553,8 +797,8 @@ class Resume extends React.Component {
                       <span> CEO and Founder</span>
                     </div>
 
-                    <div id="testi-2" className="td">
-                      <blockquote className="mb-40">
+                    <div id="testi-2" class="td">
+                      <blockquote class="mb-40">
                         If you keep your eye on the profit, you’re going to
                         skimp on the product. But if you focus on making
                         <br /> really great products, then the profits will
@@ -564,8 +808,8 @@ class Resume extends React.Component {
                       <span> CEO and Founder</span>
                     </div>
 
-                    <div id="testi-3" className="td">
-                      <blockquote className="mb-40">
+                    <div id="testi-3" class="td">
+                      <blockquote class="mb-40">
                         Being the richest man in the cemetery doesn't matter to
                         me. Going to bed at night saying we've done
                         <br /> something wonderful... that's what matters to me
@@ -574,8 +818,8 @@ class Resume extends React.Component {
                       <span>CEO and Founder</span>
                     </div>
 
-                    <div id="testi-4" className="td">
-                      <blockquote className="mb-40">
+                    <div id="testi-4" class="td">
+                      <blockquote class="mb-40">
                         If you keep your eye on the profit, you’re going to
                         skimp on the product. But if you focus on making
                         <br /> really great products, then the profits will
@@ -585,8 +829,8 @@ class Resume extends React.Component {
                       <span>CEO and Founder</span>
                     </div>
 
-                    <div id="testi-5" className="td">
-                      <blockquote className="mb-40">
+                    <div id="testi-5" class="td">
+                      <blockquote class="mb-40">
                         Being the richest man in the cemetery doesn't matter to
                         me. Going to bed at night saying we've done
                         <br /> something wonderful... that's what matters to me
@@ -601,26 +845,26 @@ class Resume extends React.Component {
           </div>
         </div>
 
-        <div className="block-content mt-100">
-          <div className="block-pricing ">
-            <div className="container">
-              <div className="row">
-                <div className="col-md-12">
-                  <div className="block-title mb-60">
-                    <h2 className="title">Packs Pricing</h2>
+        {/* <div class="block-content mt-100">
+          <div class="block-pricing ">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="block-title mb-60">
+                    <h2 class="title">Packs Pricing</h2>
                   </div>
                 </div>
               </div>
 
-              <div className="row">
-                <div className="block-table clearfix t-center">
-                  <div className="col-md-3 col-sm-6">
-                    <div className="table pt-50 pb-40">
+              <div class="row">
+                <div class="block-table clearfix t-center">
+                  <div class="col-md-3 col-sm-6">
+                    <div class="table pt-50 pb-40">
                       <h6>Starter</h6>
-                      <div className="block-price mt-50 mb-40">
-                        <span className="dollar">$</span>
-                        <span className="price">30</span>
-                        <span className="per">/mo</span>
+                      <div class="block-price mt-50 mb-40">
+                        <span class="dollar">$</span>
+                        <span class="price">30</span>
+                        <span class="per">/mo</span>
                       </div>
 
                       <ul>
@@ -641,19 +885,19 @@ class Resume extends React.Component {
                         </li>
                       </ul>
 
-                      <a className="but brd mt-40 white" href="#">
+                      <a class="but brd mt-40 white" href="#">
                         Order Now
                       </a>
                     </div>
                   </div>
 
-                  <div className="col-md-3 col-sm-6">
-                    <div className="table pt-50 pb-40">
+                  <div class="col-md-3 col-sm-6">
+                    <div class="table pt-50 pb-40">
                       <h6>Intermediate</h6>
-                      <div className="block-price mt-50 mb-40">
-                        <span className="dollar">$</span>
-                        <span className="price">60</span>
-                        <span className="per">/mo</span>
+                      <div class="block-price mt-50 mb-40">
+                        <span class="dollar">$</span>
+                        <span class="price">60</span>
+                        <span class="per">/mo</span>
                       </div>
 
                       <ul>
@@ -672,19 +916,19 @@ class Resume extends React.Component {
                         </li>
                       </ul>
 
-                      <a className="but brd mt-40 white" href="#">
+                      <a class="but brd mt-40 white" href="#">
                         Order Now
                       </a>
                     </div>
                   </div>
 
-                  <div className="col-md-3 col-sm-6">
-                    <div className="table pt-50 pb-40">
+                  <div class="col-md-3 col-sm-6">
+                    <div class="table pt-50 pb-40">
                       <h6>Professional</h6>
-                      <div className="block-price mt-50 mb-40">
-                        <span className="dollar">$</span>
-                        <span className="price">120</span>
-                        <span className="per">/mo</span>
+                      <div class="block-price mt-50 mb-40">
+                        <span class="dollar">$</span>
+                        <span class="price">120</span>
+                        <span class="per">/mo</span>
                       </div>
 
                       <ul>
@@ -701,19 +945,19 @@ class Resume extends React.Component {
                         </li>
                       </ul>
 
-                      <a className="but brd mt-40 white" href="#">
+                      <a class="but brd mt-40 white" href="#">
                         Order Now
                       </a>
                     </div>
                   </div>
 
-                  <div className="col-md-3 col-sm-6">
-                    <div className="table pt-50 pb-40">
+                  <div class="col-md-3 col-sm-6">
+                    <div class="table pt-50 pb-40">
                       <h6>Advanced</h6>
-                      <div className="block-price mt-50 mb-40">
-                        <span className="dollar">$</span>
-                        <span className="price">240</span>
-                        <span className="per">/mo</span>
+                      <div class="block-price mt-50 mb-40">
+                        <span class="dollar">$</span>
+                        <span class="price">240</span>
+                        <span class="per">/mo</span>
                       </div>
 
                       <ul>
@@ -726,7 +970,7 @@ class Resume extends React.Component {
                         <li>SEO Optimization</li>
                       </ul>
 
-                      <a className="but brd mt-40 white" href="#">
+                      <a class="but brd mt-40 white" href="#">
                         Order Now
                       </a>
                     </div>
@@ -734,10 +978,10 @@ class Resume extends React.Component {
                 </div>
               </div>
 
-              <div className="row">
-                <div className="col-sm-12">
-                  <div className="block-more-info mt-20">
-                    <p className="short-email">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="block-more-info mt-20">
+                    <p class="short-email">
                       * For further info or questions, please send me an email
                       at <a href="#">contact@gmail.com</a>
                     </p>
@@ -746,8 +990,8 @@ class Resume extends React.Component {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </div>*/}
+      </div> 
     );
   }
 }

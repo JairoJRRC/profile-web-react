@@ -18,7 +18,7 @@ class Blog extends React.Component {
               <div className="col-md-4 col-sm-4  ">
                 <div className="post latest">
                   <div className="post-media">
-                    <img src="img/blog/1.jpg" alt="" />
+                    <img src={require('./img/1.jpg')} alt="" />
                   </div>
 
                   <div className="post-details latest pb-20">
@@ -60,7 +60,7 @@ class Blog extends React.Component {
               <div className="col-md-4 col-sm-4">
                 <div className="post latest">
                   <div className="post-media">
-                    <img src="img/blog/2.jpg" alt="" />
+                    <img src={require('./img/2.jpg')} alt="" />
                   </div>
 
                   <div className="post-details latest pb-20">
@@ -102,7 +102,7 @@ class Blog extends React.Component {
               <div className="col-md-4 col-sm-4  ">
                 <div className="post latest">
                   <div className="post-media">
-                    <img src="img/blog/3.jpg" alt="" />
+                    <img src={require('./img/3.jpg')} alt="" />
                   </div>
 
                   <div className="post-details latest pb-20">

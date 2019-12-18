@@ -9,7 +9,7 @@ import "./css/main.css";
 import "./css/owl-carousel/owl.carousel.css";
 import "./css/owl-carousel/owl.theme.css";
 
-import Bloccontent from "./components/bloc-content/bloc-content";
+import Home from "./components/home/home"
 import Navbar from "./components/navbar/navbar";
 import About from "./components/about/about";
 import Resume from "./components/resume/resume";
@@ -25,7 +25,7 @@ class App extends React.Component {
 
         <section id="home" className="home">
           <div className="block-content ">
-            <Bloccontent />
+            <Home />
           </div>
         </section>
 

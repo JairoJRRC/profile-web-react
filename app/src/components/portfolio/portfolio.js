@@ -52,72 +52,72 @@ class Portfolio extends React.Component {
                       <h5>Project Name</h5>
                     </div>
 
-                    <img src="img/portfolio/1.jpg" alt="" />
+                    <img src={require('./img/1.jpg')} alt="" />
                   </a>
                 </div>
               </div>
 
               <div className="col-md-3 col-sm-6  masonry item-block">
                 <div className=" item web ">
-                  <a href="img/portfolio/2.jpg" className="popup">
+                  <a href={require('./img/2.jpg')} className="popup">
                     <div className="desc">
                       <span>in web design</span>
                       <h5>Project Name</h5>
                     </div>
 
-                    <img src="img/portfolio/2.jpg" alt="" />
+                    <img src={require('./img/2.jpg')} alt="" />
                   </a>
                 </div>
               </div>
 
               <div className="col-md-3 col-sm-6  masonry item-block">
                 <div className=" item graphic">
-                  <a href="img/portfolio/3.jpg" className="popup">
+                  <a href={require('./img/3.jpg')} className="popup">
                     <div className="desc">
                       <span>in graphic design</span>
                       <h5>Project Name</h5>
                     </div>
 
-                    <img src="img/portfolio/3.jpg" alt="" />
+                    <img src={require('./img/3.jpg')} alt="" />
                   </a>
                 </div>
               </div>
 
               <div className="col-md-3 col-sm-6  masonry item-block">
                 <div className=" item graphic">
-                  <a href="img/portfolio/4.jpg" className="popup">
+                  <a href={require('./img/4.jpg')} className="popup">
                     <div className="desc graphic">
                       <span>in graphic design</span>
                       <h5>Project Name</h5>
                     </div>
 
-                    <img src="img/portfolio/4.jpg" alt="" />
+                    <img src={require('./img/4.jpg')} alt="" />
                   </a>
                 </div>
               </div>
 
               <div className="col-md-3 col-sm-6 masonry item-block">
                 <div className=" item graphic">
-                  <a href="img/portfolio/5.jpg" className="popup">
+                  <a href={require('./img/5.jpg')} className="popup">
                     <div className="desc">
                       <span>in graphic design</span>
                       <h5>Project Name</h5>
                     </div>
 
-                    <img src="img/portfolio/5.jpg" alt="" />
+                    <img src={require('./img/5.jpg')} alt="" />
                   </a>
                 </div>
               </div>
 
               <div className="col-md-3 col-sm-6 masonry item-block">
                 <div className=" item web">
-                  <a href="img/portfolio/6.jpg" className="popup">
+                  <a href={require('./img/6.jpg')} className="popup">
                     <div className="desc">
                       <span>in web design</span>
                       <h5>Project Name</h5>
                     </div>
 
-                    <img src="img/portfolio/6.jpg" alt="" />
+                    <img src={require('./img/6.jpg')} alt="" />
                   </a>
                 </div>
               </div>
@@ -130,7 +130,7 @@ class Portfolio extends React.Component {
                       <h5>Project Name</h5>
                     </div>
 
-                    <img src="img/portfolio/7.jpg" alt="" />
+                    <img src={require('./img/7.jpg')} alt="" />
                   </a>
                 </div>
               </div>
@@ -146,7 +146,7 @@ class Portfolio extends React.Component {
                       <h5>Project Name</h5>
                     </div>
 
-                    <img src="img/portfolio/9.jpg" alt="" />
+                    <img src={require('./img/9.jpg')} alt="" />
                   </a>
                 </div>
               </div>
@@ -159,7 +159,7 @@ class Portfolio extends React.Component {
                       <h5>Project Name</h5>
                     </div>
 
-                    <img src="img/portfolio/10.jpg" alt="" />
+                    <img src={require('./img/10.jpg')} alt="" />
                   </a>
                 </div>
               </div>
